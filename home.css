@@ -9,11 +9,8 @@ h1 {
 }
 
 h2 {
-    position: absolute;
-    width: 651px;
-    height: 72px;
-    left: 394px;
-    top: 362px;
+    position: relative;
+    width: 100%;
 
     font-family: Poppins;
     font-style: normal;
