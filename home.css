@@ -9,12 +9,19 @@ h1 {
 }
 
 h2 {
+    position: absolute;
+    width: 651px;
+    height: 72px;
+    left: 394px;
+    top: 362px;
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
+    display: flex;
+    align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
-    width: 50%;
 }
