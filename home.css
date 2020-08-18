@@ -19,16 +19,7 @@ h2 {
     letter-spacing: 0.05em;
 }
 
-/*
-.small {
-    font-family: Filson Pro;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    text-align: center;
-}
-
-.mainmenu {
+#mainmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,8 +30,16 @@ li {
 }  
 
 li a {
+    font-family: Filson Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
     color: black;
     text-align: center;
     padding: 14px 65px;
     text-decoration: none;
-*/
+}
+
+li a:hover {
+    color: #3D71D6;
+}
