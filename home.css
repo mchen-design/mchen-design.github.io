@@ -29,7 +29,7 @@ h2 {
 }
 
 li {
-    float: right;
+    /* float: right; */
     display: inline;
 }  
 
