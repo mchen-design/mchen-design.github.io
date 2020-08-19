@@ -20,13 +20,16 @@ h2 {
 }
 
 nav {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
     left: 65%;
     top: 32px;
     display: table;
+}
+
+nav #mainmenu {
+    list-style-type: none;
 }
 
 nav #mainmenu li {
