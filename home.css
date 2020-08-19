@@ -29,11 +29,11 @@ nav {
     display: table;
 }
 
-#mainmenu li {
+nav #mainmenu li {
     float: right; 
 }  
 
-#mainmenu li a {
+nav #mainmenu li a {
     font-family: Filson Pro;
     font-style: normal;
     font-weight: 400;
@@ -44,7 +44,7 @@ nav {
     text-decoration: none;
 }
 
-#mainmenu li a:hover {
+nav #mainmenu li a:hover {
     color: #3D71D6;
 }
 
