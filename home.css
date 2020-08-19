@@ -44,6 +44,6 @@ h2 {
     text-decoration: none;
 }
 
-li a:hover {
+#mainmenu li a:hover {
     color: #3D71D6;
 }
