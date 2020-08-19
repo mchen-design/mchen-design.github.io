@@ -26,14 +26,14 @@ h2 {
     position: absolute;
     left: 1066px;
     top: 32px;
+    display: table;
 }
 
-li {
-    /* float: right; */
-    display: inline;
+#mainmenu li {
+    float: right; 
 }  
 
-li a {
+#mainmenu li a {
     font-family: Filson Pro;
     font-style: normal;
     font-weight: 500;
