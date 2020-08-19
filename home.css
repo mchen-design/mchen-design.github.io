@@ -34,6 +34,7 @@ nav #pages {
 
 nav #logo {
     list-style-type: none;
+    left: 0%
 }
 
 nav #pages li {
