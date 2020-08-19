@@ -28,7 +28,11 @@ nav {
     display: table;
 }
 
-nav #mainmenu, #logo {
+nav #mainmenu {
+    list-style-type: none;
+}
+
+nav #logo {
     list-style-type: none;
 }
 
