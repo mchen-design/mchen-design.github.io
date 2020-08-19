@@ -28,7 +28,7 @@ nav {
     display: table;
 }
 
-nav #mainmenu {
+nav #mainmenu, #logo {
     list-style-type: none;
 }
 
@@ -51,7 +51,7 @@ nav #mainmenu li a:hover {
     color: #3D71D6;
 }
 
-nav img {
+nav #logo li {
     float: left;
     margin-left: 60px;
 }
