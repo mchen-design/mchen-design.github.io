@@ -17,6 +17,7 @@ h2 {
     line-height: 36px;
     text-align: center;
     letter-spacing: 0.05em;
+    align-items: center;
 }
 
 #pages {
