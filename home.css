@@ -51,6 +51,8 @@ h2 {
 #logo ul {
     list-style-type: none;
     left: 0%;
+    top: 32px;
+    position: absolute;
 }
 
 #logo ul li {
