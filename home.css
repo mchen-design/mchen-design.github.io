@@ -19,7 +19,8 @@ h2 {
     letter-spacing: 0.05em;
 }
 
-nav {
+#pages {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -28,20 +29,11 @@ nav {
     display: table;
 }
 
-nav #pages {
-    list-style-type: none;
-}
-
-nav #logo {
-    list-style-type: none;
-    left: 0%;
-}
-
-nav #pages li {
+#pages li {
     float: right; 
 }  
 
-nav #pages li a {
+#pages li a {
     font-family: Filson Pro;
     font-style: normal;
     font-weight: 400;
@@ -52,11 +44,16 @@ nav #pages li a {
     text-decoration: none;
 }
 
-nav #pages li a:hover {
+#pages li a:hover {
     color: #3D71D6;
 }
 
-nav #logo li {
+#logo ul {
+    list-style-type: none;
+    left: 0%;
+}
+
+#logo ul li {
     float: left;
     margin-left: 60px;
 }
