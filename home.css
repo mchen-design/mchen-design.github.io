@@ -50,12 +50,12 @@ h2 {
 
 #logo ul {
     list-style-type: none;
+    float: left;
     left: 0%;
     top: 14px;
     position: absolute;
 }
 
 #logo ul li {
-    float: left;
     margin-left: 60px;
 }
