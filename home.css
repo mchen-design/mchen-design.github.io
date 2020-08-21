@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    width: 60%;
+    width: 100%;
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
@@ -17,7 +17,6 @@ h2 {
     line-height: 36px;
     text-align: center;
     letter-spacing: 0.05em;
-    object-position: center;
 }
 
 #pages {
