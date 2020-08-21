@@ -48,9 +48,7 @@ h2 {
     color: #3D71D6;
 }
 
-#logo ul {
-    list-style-type: none;
-    float: left;
+#logo {
     left: 5%;
     top: 0%;
     position: absolute;
