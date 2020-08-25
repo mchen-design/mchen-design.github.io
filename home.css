@@ -1,39 +1,30 @@
-h1 {
-    font-family: Filson Pro;
-    font-size: 48;
-    font-style: normal;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
-    margin-top: 292px;
-}
-
-h2 {
-    width: 100%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: 0.05em;
-}
-
-#pages {
-    list-style-type: none;
+body {
     margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    display: table;
 }
 
-#pages li {
-    float: right; 
-}  
+#spacer {
+    height: 15px;
+}
 
-#pages li a {
+/*
+ Nav section
+*/
+
+nav {
+    background-color: #C5DFFF;
+}
+
+#nav-logo {
+    margin-left: 5%;
+}
+
+#nav-links {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#nav-links a {
     font-family: Filson Pro;
     font-style: normal;
     font-weight: 400;
@@ -44,16 +35,459 @@ h2 {
     text-decoration: none;
 }
 
-#pages li a:hover {
+#nav-links a:hover {
     color: #3D71D6;
 }
 
-#logo {
-    left: 5%;
-    top: 0%;
-    position: absolute;
+/*
+ Landing section
+*/
+
+#landing {
+    background-color: #C5DFFF;
+    height: 100vh;
 }
 
-/* #logo ul li {
-    margin-left: 60px;
-} */
+#landing-hello {
+    font-family: Filson Pro;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 7%;
+}
+
+#landing-description {
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+#landing-looking {
+    font-family: Filson Pro;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+#internships {
+    font-weight: normal;
+    color: white;
+    background-color: #3D71D6;
+    padding: 6px 12px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+.design {
+    font-weight: normal;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#landing-based {
+    font-family: Filson Pro;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+#location {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 38px;
+}
+
+#email {
+    font-weight: normal;
+    color: black;
+    background-color: white;
+    padding: 6px 12px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+#linkedin {
+    font-weight: normal;
+    color: black;
+    background-color: white;
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+#landing-window {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+}
+
+#landing-mediumclouds {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+#landing-smallcloud {
+    position: absolute;
+    top: 20%;
+    right: 35%;
+}
+
+#landing-leftgraphic {
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+}
+
+/*
+ Client Projects section
+*/
+
+#client-projects {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+#client-projects #title {
+    grid-column: 2;
+    grid-row: 1;
+    font-family: Filson Pro;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25%;
+}
+
+#groupsource {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 5%;
+}
+
+#groupsource-hmw {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 33px;
+    /*padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 84px;
+    padding-bottom: 237px;
+    width: 333px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;*/
+}
+
+#groupsource-label {
+    margin-top: 25px;
+}
+
+#fitted {
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 5%;
+}
+
+#fitted-hmw {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 115px;
+    padding-bottom: 273px;
+    width: 302px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+#fitted-label {
+    margin-top: 25px;
+}
+
+#workologie {
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 5%;
+}
+
+#workologie-hmw {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 71px;
+    padding-bottom: 273px;
+    width: 346px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+#workologie-label {
+    margin-top: 25px;
+}
+
+/*
+ Other Projects section
+*/
+
+#other-projects {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+#other-projects #title {
+    grid-column: 1;
+    grid-row: 1;
+    font-family: Filson Pro;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25%;
+}
+
+#sling {
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 5%;
+}
+
+#sling-hmw {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 103px;
+    padding-bottom: 237px;
+    width: 314px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+#sling-label {
+    margin-top: 25px;
+}
+
+#dmv {
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 5%;
+}
+
+#dmv-hmw {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 103px;
+    padding-bottom: 309px;
+    width: 314px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+#dmv-label {
+    margin-top: 25px;
+}
+
+#avoeats {
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 5%;
+}
+
+#avoeats-hmw {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 33px;
+    padding-left: 33px;
+    padding-right: 103px;
+    padding-bottom: 273px;
+    width: 314px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+#avoeats-label {
+    margin-top: 25px;
+}
+
+h4 {
+    font-family: Filson Pro;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+}
+
+h5 {
+    font-family: Filson Pro;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+#quicklinks {
+    margin-top: 50px;
+}
+
+#arrow {
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.role {
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #C5DFFF;
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+.type {
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #FFE0D9;
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+/*
+ Connect section
+*/
+
+#talk {
+    background-color: #F9F9F9;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#listen {
+    font-family: Filson Pro;
+    font-size: 48px;
+    font-style: normal;
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 9%;
+}
+
+#contact {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    width: 100%;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+#talk #contact #Email {
+    font-weight: 600;
+    color: #3D71D6;
+    text-decoration: none;
+}
+
+#talk #contact #Linkedin {
+    font-weight: 600;
+    color: #3D71D6;
+    text-decoration: none;
+}
+
+/*
+ Footer section
+*/
+
+footer {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer #coded {
+    font-family: Filson Pro;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+}
+
+footer #copyright {
+    font-family: Filson Pro;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    color: #969696;
+    margin-top: 1%;
+}
+

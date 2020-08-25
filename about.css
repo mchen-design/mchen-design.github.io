@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+#spacer {
+    height: 15px;
+}
+
+/*
+ Nav section
+*/
+
+nav {
+    background-color: #E2DED9;
+}
+
+#nav-logo {
+    margin-left: 5%;
+}
+
+#nav-links {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#nav-links a {
+    font-family: Filson Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin: 14px 45px;
+    text-decoration: none;
+}
+
+#nav-links a:hover {
+    color: #3D71D6;
+}
+
+/*
+ Page content
+*/
+
+#page-content {
+    background-color: #E2DED9;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+    justify-items: left;
+    align-items: flex-start;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#description {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#why-design {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 30%;
+}
+
+#at-a-glance {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 5%;
+}
+
+#image {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 5%;
+}
+
+#profile-image {
+    position: absolute;
+    top: 33%;
+    right: 13%;
+    z-index: 10;
+}
+
+#clouds {
+    position: absolute;
+    top: 42%;
+    right: 12%;
+    z-index: 20;
+}
+
+h1 {
+    font-family: Filson Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+
+p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 27px;
+}
+
+#ICB {
+    text-decoration: none;
+    color: #3D71D6;
+}
+
+#resume {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    background-color: #3D71D6;
+    padding: 10px 26px;
+    margin-left: 54px;
+    border-radius: 3px;
+}
+
+#resume-link {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+ Footer content
+*/
+
+footer {
+    background-color: #E2DED9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer #coded {
+    font-family: Filson Pro;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+}
+
+footer #copyright {
+    font-family: Filson Pro;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    color: #969696;
+    margin-top: 1%;
+}
