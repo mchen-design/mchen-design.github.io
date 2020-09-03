@@ -39,6 +39,12 @@ nav {
     color: #3D71D6;
 }
 
+#about {
+    border: 1px solid #000000;
+    padding: 11px 14px;
+    border-radius: 10px;
+}
+
 /*
  Page content
 */

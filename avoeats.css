@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+}
+
+#spacer {
+    height: 15px;
+}
+
+.grey {
+    color: #969696;
+}
+
+.width {
+    width: 930px;
+}
+
+.margin {
+    margin: auto;
+    margin-top: 5%;
+}
+
+/*
+ Fonts
+*/
+
+h1 {
+    font-family: Filson Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+h2 {
+    font-family: Filson Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+}
+
+h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+}
+
+h5 {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.07em;
+    text-align: left;
+}
+
+/*
+ Nav section
+*/
+
+nav {
+    background-color: white;
+}
+
+#nav-logo {
+    margin-left: 5%;
+}
+
+#nav-links {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#nav-links a {
+    font-family: Filson Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin: 14px 45px;
+    text-decoration: none;
+}
+
+#nav-links a:hover {
+    color: #3D71D6;
+}
+
+/*
+ Banner section
+*/
+
+#title {
+    text-align: center;
+}
+
+/*
+ Solution section
+*/
+
+#solution-section {
+    background-color: #FFEFB7;
+    padding-bottom: 5%;
+}
+
+#logistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 10% 20%;
+
+}
+
+#logistics img {
+    grid-column: 1;
+}
+
+#roles {
+    grid-column: 2;
+}
+
+#background {
+    margin-top: 0;
+}
+
+.screens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#screen1-text {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#screen2-text {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#screen3-text {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#screen4-text {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#screen5-text {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+/*
+ Process section
+*/
+
+#process-section {
+    background-color: white;
+}
+
+.image {
+    margin: 5% auto
+}
+
+#reflection #link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*
+ Footer section
+*/
+
+footer {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer #coded {
+    font-family: Filson Pro;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+}
+
+footer #copyright {
+    font-family: Filson Pro;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    color: #969696;
+    margin-top: 1%;
+}
+
+
