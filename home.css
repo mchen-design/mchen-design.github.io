@@ -1,6 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+    animation: fadeInAnimation ease 2s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0.2; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+    }
 
 #spacer {
     height: 15px;
@@ -131,6 +147,16 @@ nav {
     margin-left: 12px;
     margin-right: 12px;
     border-radius: 3px;
+}
+
+#learnmore a {
+    text-decoration: none;
+    color: black;
+}
+
+#projects a {
+    text-decoration: none;
+    color: black;
 }
 
 #landing-window {
@@ -266,6 +292,11 @@ nav {
 
 #other-projects .project-text {
     background-color: #F9F9F9;
+}
+
+#other-projects a {
+    text-decoration: none;
+    color: black;
 }
 
 #sling {

@@ -1,7 +1,23 @@
-body {
-    margin: 0;
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    animation: fadeInAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0.2; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+    }
+    
 #spacer {
     height: 15px;
 }
@@ -100,12 +116,23 @@ nav {
     color: #3D71D6;
 }
 
+#nav-links #projects {
+    border: 1px solid #000000;
+    padding: 11px 14px;
+    margin: 14px 30px;
+    border-radius: 10px;
+}
+
 /*
  Banner section
 */
 
 #title {
     text-align: center;
+}
+
+#banner {
+    display: block;
 }
 
 /*
@@ -198,6 +225,34 @@ footer {
     background-color: white;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+#bottomnav {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#bottomnav #prev {
+    grid-column: 1;
+    text-decoration: none;
+    color: black;
+    font-family: Filson Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#bottomnav #top {
+    grid-column: 2;
+    text-decoration: none;
+    color: #3D71D6;
+    font-family: Filson Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 footer #coded {

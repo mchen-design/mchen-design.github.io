@@ -14,9 +14,9 @@
             </a>
         </div>
         <div id="nav-links">
-            <a href="about.html">About</a>
-            <a href="#visualmedia">Visual Media</a>
-            <a href="#projects">Projects</a>     
+            <a href="#client-projects">Projects</a>
+            <a href="visual-media.html">Visual Media</a>
+            <a href="about.html">About</a>     
         </div>   
     </nav>
     <section id="landing">
@@ -31,8 +31,18 @@
         <img src="home/small cloud.png" height="50" id="landing-smallcloud">
         <img src="home/left-graphics.png" height="550" id="landing-leftgraphic">
         <div id="quicklinks"> 
-            <h4 id="learnmore">Learn More<span id="arrow">→</span></h4>
-            <h4 id="projects">Projects<span id="arrow">↓</span></h4>
+            <h4 id="learnmore">
+                <a href="about.html">
+                    Learn More<span id="arrow">→</span>
+                </a>
+            </h4>
+            <!--I don't think I need this
+                <h4 id="projects">
+                <a href="#client-projects">
+                    Projects<span id="arrow">↓</span>
+                </a>
+            </h4>
+            -->
         </div>
     </section>
     <section id="client-projects">
@@ -88,11 +98,13 @@
         <div id="avoeats">
             <div class="project-hmw">
                 <img src="home/avoeats.png" height="384px" width="384px" class="project-image">
-                <div class="project-text">
-                    How might we use<br>friction to discourage the<br>ordering of unhealthy<br>food online?
-                </div>
+                <a href="avoeats.html">
+                    <div class="project-text">
+                        How might we use<br>friction to discourage the<br>ordering of unhealthy<br>food online?
+                    </div>
+                </a>
             </div>
-            <h5 id="avoeats-label">AvoEats<span class="role">UI/UX Designer</span><span class="type">iOS App</span></h5>
+            <a href="avoeats.html"><h5 id="avoeats-label">AvoEats</a><span class="role">UI/UX Designer</span><span class="type">iOS App</span></h5>
         </div>
     </section>
     <section id="talk">
@@ -105,7 +117,7 @@
     </section>
     <footer>
         <div id="coded">
-            Coded by Maya ✌️
+            Coded by Maya 🎨
         </div>
         <div id="copyright">
             Copyright © Maya Chen 2020
