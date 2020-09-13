@@ -37,7 +37,7 @@ nav {
 }
 
 #nav-links a {
-    font-family: Filson Pro;
+    font-family: filson-pro;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -175,7 +175,7 @@ nav {
 }
 
 .about-box {
-    font-family: Poppins;
+    font-family: poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -213,7 +213,7 @@ nav {
 }
 
 h1 {
-    font-family: Filson Pro;
+    font-family: filson-pro;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -221,7 +221,7 @@ h1 {
 }
 
 p {
-    font-family: Poppins;
+    font-family: poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -262,7 +262,7 @@ footer {
 }
 
 footer #coded {
-    font-family: Filson Pro;
+    font-family: filson-pro;
     font-size: 14px;
     font-style: normal;
     text-align: center;
@@ -271,7 +271,7 @@ footer #coded {
 }
 
 footer #copyright {
-    font-family: Filson Pro;
+    font-family: filson-pro;
     font-size: 14px;
     font-style: normal;
     text-align: center;
