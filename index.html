@@ -13,7 +13,9 @@
                 <img src="home/logo-combined 1.svg" alt="my logo" width="192.74" height="96.8">
             </a>
         </div>
-        <div id="nav-links">
+        <div id="mobile-burger" class="responsive-burger" onclick="showLinks()"></div>
+        <div id="mobile-exit" onclick="hideLinks()"></div>
+        <div id="nav-links" class="responsive-links">
             <a href="#client-projects">Projects</a>
             <a href="visual-media.html">Visual Media</a>
             <a href="about.html">About</a>     
@@ -45,59 +47,59 @@
             -->
         </div>
     </section>
-    <section id="client-projects">
-        <div id="title">👩🏻‍💻Client Projects</div>
-        <div id="groupsource">
+    <section id="client-projects" class="responsive-grid">
+        <div id="client-title" class="responsive-title responsive-cell2">👩🏻‍💻Client Projects</div>
+        <div id="groupsource" class="responsive-cell1">
             <div class="project-hmw">
-                <img src="home/groupsource.png" height="384px" width="384px" class="project-image">
+                <img src="home/groupsource.png" class="responsive-image">
                 <div class="project-text">
                     How might we connect<br>students with professional<br>relevant experiences<br>to better prepare them for<br>the work world?
                 </div>
             </div>
             <h5 class="project-label">Groupsource<span class="role">UI/UX Designer</span><span class="type">Web App</span></h5>
         </div>
-        <div id="fitted">
+        <div id="fitted" class="responsive-cell3">
             <div class="project-hmw">
-                <img src="home/fitted.png" height="384px" width="384px" class="project-image">
+                <img src="home/fitted.png" class="responsive-image">
                 <div class="project-text">
                     How might we help<br>fashion stylists virtually<br>find and interact with<br>clients, and vice versa?
                 </div> 
             </div>
             <h5 class="project-label">Fitted<span class="role">Product Designer</span><span class="type">iOS App</span></h5>
         </div>
-        <div id="workologie">
+        <div id="workologie" class="responsive-cell4">
             <div class="project-hmw">
-                <img src="home/workologie.png" height="384px" width="384px" class="project-image">
+                <img src="home/workologie.png" class="responsive-image">
                 <div class="project-text">
                     How might we translate the<br>skills gained by individuals<br>while incarcerated to<br>job-ready soft skills?
                 </div> 
             </div>
-            <h5 class="workologie-label">Workologie<span class="role">Product Designer</span><span class="type">Web App</span></h5>
+            <h5 class="project-label">Workologie<span class="role">Product Designer</span><span class="type">Web App</span></h5>
         </div>
     </section>
-    <section id="other-projects">
-        <div id="title">🌕Other Projects</div>
-        <div id="sling">
+    <section id="other-projects" class="responsive-grid">
+        <div id="other-title" class="responsive-title responsive-cell1">🌕Other Projects</div>
+        <div id="sling" class="responsive-cell2">
             <div class="project-hmw">
-                <img src="home/sling.png" height="384px" width="384px" class="project-image">
+                <img src="home/sling.png" class="responsive-image">
                 <div class="project-text">
                     How might we design an<br>experience that allows<br>students to report<br>building or equipment<br>issues on campus?
                 </div>
             </div>
             <h5 id="sling-label">Sling App<span class="role">UI/UX Designer</span><span class="type">Android App</span></h5>
         </div>
-        <div id="dmv">
+        <div id="dmv" class="responsive-cell3">
             <div class="project-hmw">
-                <img src="home/dmv.png" height="384px" width="384px" class="project-image">
+                <img src="home/dmv.png" class="responsive-image">
                 <div class="project-text">
                     How might we make the<br>DMV online appointment<br>process more delightful?
                 </div>
             </div>
             <h5 id="dmv-label">dmv.ca.gov<span class="role">UI/UX Designer</span><span class="type">iOS App</span></h5>
         </div>
-        <div id="avoeats">
+        <div id="avoeats" class="responsive-cell4">
             <div class="project-hmw">
-                <img src="home/avoeats.png" height="384px" width="384px" class="project-image">
+                <img src="home/avoeats.png" class="responsive-image">
                 <a href="avoeats.html">
                     <div class="project-text">
                         How might we use<br>friction to discourage the<br>ordering of unhealthy<br>food online?
@@ -108,7 +110,7 @@
         </div>
     </section>
     <section id="talk">
-        <div id="listen">
+        <div id="listen" class="responsive-talk-title">
             I'm here to listen. 🍵
         </div>
         <div id="contact">
@@ -124,4 +126,17 @@
         </div>
     </footer>
 </body>
+<script>
+    function showLinks() {
+        document.getElementById("nav-links").style.display = "block";
+        document.getElementById("mobile-exit").style.display = "block";
+        document.getElementById("mobile-burger").style.display = "none";
+    }
+
+    function hideLinks() {
+        document.getElementById("nav-links").style.display = "none";
+        document.getElementById("mobile-exit").style.display = "none";
+        document.getElementById("mobile-burger").style.display = "block";
+    }
+</script>
 </html>
