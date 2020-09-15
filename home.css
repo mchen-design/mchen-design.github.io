@@ -88,7 +88,7 @@ nav {
     background: url(home/menu-open.svg);
     position: fixed;
     right: 5%;
-    top: 5%;
+    top: 30px;
     z-index: 10;
 }
 
@@ -98,7 +98,7 @@ nav {
     background: url(home/menu-close.svg);
     position: fixed;
     right: 5%;
-    top: 5%;
+    top: 30px;
     z-index: 11;
     display: none;
 }
